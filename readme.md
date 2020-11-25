@@ -35,6 +35,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Voortgang 1 (week 3)
+-Bij voortgang 1 heb ik nog niet gekeken naar het juist vormgeven, maar het maken van een responsive layout met CSS mediaqueries en flexbox, dit is nog niet helemaal gelukt maar er zal niet heel veel tijd meer in gaan zitten.-
 
 ### Stand van zaken
 
@@ -50,8 +51,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 | student 1      | student 2          | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| Responsiveness CSS  | en dit             | en ik dit    | en dan ik dat    |
+| Flexbox | dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
 ### Verslag van meeting
