@@ -39,7 +39,7 @@ Bij voortgang 1 heb ik nog niet gekeken naar het juist vormgeven, maar het maken
 
 ### Stand van zaken
 
--Media Queries gebruiken was wat roestig dus ik had daar weer uitleg over nodig.-
+Media Queries gebruiken was wat roestig dus ik had daar weer uitleg over nodig. Ik wil meteen beginnen met een responsive layout en daarna pas over naar de vormgeving en de details, dat is dan alleen nog een kwestie van invullen.
 
 **Screenshot(s):**
 
