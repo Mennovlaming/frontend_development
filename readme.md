@@ -35,11 +35,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Voortgang 1 (week 3)
--Bij voortgang 1 heb ik nog niet gekeken naar het juist vormgeven, maar het maken van een responsive layout met CSS mediaqueries en flexbox, dit is nog niet helemaal gelukt maar er zal niet heel veel tijd meer in gaan zitten.-
+Bij voortgang 1 heb ik nog niet gekeken naar het juist vormgeven, maar het maken van een responsive layout met CSS mediaqueries en flexbox, dit is nog niet helemaal gelukt maar er zal niet heel veel tijd meer in gaan zitten.
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+-Media Queries gebruiken was wat roestig dus ik had daar weer uitleg over nodig.-
 
 **Screenshot(s):**
 
