@@ -3,3 +3,93 @@
   box-sizing:border-box;  
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+/* Hier moet de site hele breedte gebruiken (1 collumn) Nav is hamburger */
+/*@media only screen and (max-width: 600px) {
+  .flexcontainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexcontainer img {
+    width: 50%;
+  }
+  
+  .flexcontainer .div2{
+    background-color: red;
+    
+  }
+
+  .flexcontainer .div1{
+    background-color: aqua;
+    
+  }
+} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Hier moet de site hele breedte gebruiken (1 collumn) Nav is hamburger */
+
+  .flexcontainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexcontainer img {
+    width: 50%;
+  }
+  
+  .flexcontainer .div2{
+    background-color: red;
+    
+  }
+
+  .flexcontainer .div1{
+    background-color: aqua;
+    
+  }
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* Hier moet de site 2 collumns breed zijn. Nav is hamburger */
+@media only screen and (min-width: 768px)  {
+  .flexcontainer {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+  }
+
+  .flexcontainer .div2{
+    background-color: red;
+    width: 50%;
+  }
+
+  .flexcontainer .div1{
+    background-color: aqua;
+    width: 50%;
+  }
+
+  .flexcontainer img {
+    width: 50%;
+
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* Hier moet de site 2 collumns breed zijn. */
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Hier moet de site 2 collumns breed zijn. */
+@media only screen and (min-width: 1200px) {
+
+}
+
