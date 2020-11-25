@@ -49,10 +49,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
+| Menno      | Aron          | Christiaan    | student 4        |
 | ---            | ---                | ---          | ---              |
-| Responsiveness CSS  | en dit             | en ik dit    | en dan ik dat    |
-| Flexbox | dit als er tijd is | nog een punt | dit wil ik zeker |
+| Responsiveness CSS  | CSS controleren             | HTML checken    | en dan ik dat    |
+| Flexbox | dit als er tijd is | semantiek HTML | positionering vragen |
 | ...            | ...                | ...          | ...              |
 
 ### Verslag van meeting
