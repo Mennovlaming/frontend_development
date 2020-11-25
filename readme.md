@@ -52,7 +52,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 | Menno      | Aron          | Christiaan    | student 4        |
 | ---            | ---                | ---          | ---              |
 | Responsiveness CSS  | CSS controleren             | HTML checken    | en dan ik dat    |
-| Flexbox | dit als er tijd is | semantiek HTML | positionering vragen |
+| Flexbox | semantiek HTML | positionering vragen | ... |
 | ...            | ...                | ...          | ...              |
 
 ### Verslag van meeting
