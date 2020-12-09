@@ -1,95 +1,158 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+
+nav li a {
+  color: black;
+  font-family: 'Poppins';
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 20px 5px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+nav li a:hover {
+  background: rgba(238, 13, 13, 0.75);
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+}
+
+
+.navigation .user {
+  flex: .5;
+}
+
+.navigation .logo {
+  flex: 4;
+}
+
+.navigation .menu {
+  flex: 2;
+}
+
+.navigation .social {
+  flex: .5;
 }
 
 
 
-/* Extra small devices (phones, 600px and down) */
-/* Hier moet de site hele breedte gebruiken (1 collumn) Nav is hamburger */
-/*@media only screen and (max-width: 600px) {
-  .flexcontainer {
-    display: flex;
-    flex-direction: column;
+/*Tablet size, alle li elementen krijgen 50% van de ruimte, behalve de user group, die krijgen 33%*/
+@media all and (max-width: 1000px) {
+  .navigation ul {
+    flex-wrap: wrap;
   }
 
-  .flexcontainer img {
-    width: 50%;
-  }
-  
-  .flexcontainer .div2{
-    background-color: red;
-    
+  .navigation li {
+    flex: 1 1 50%;
   }
 
-  .flexcontainer .div1{
-    background-color: aqua;
-    
-  }
-} */
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* Hier moet de site hele breedte gebruiken (1 collumn) Nav is hamburger */
-
-  .flexcontainer {
-    display: flex;
-    flex-direction: column;
+  .navigation .user {
+    flex: 1 1 33.33%;
   }
 
-  .flexcontainer img {
-    width: 50%;
+  section p {
+    width: 75%;
   }
-  
-  .flexcontainer .div2{
-    background-color: red;
-    
-  }
-
-  .flexcontainer .div1{
-    background-color: aqua;
-    
-  }
-
-
-/* Medium devices (landscape tablets, 768px and up) */
-/* Hier moet de site 2 collumns breed zijn. Nav is hamburger */
-@media only screen and (min-width: 768px)  {
-  .flexcontainer {
-    display: flex;
-    flex-direction: row;
-    align-content: space-between;
-  }
-
-  .flexcontainer .div2{
-    background-color: red;
-    width: 50%;
-  }
-
-  .flexcontainer .div1{
-    background-color: aqua;
-    width: 50%;
-  }
-
-  .flexcontainer img {
-    width: 50%;
-
-  }
-} 
-
-/* Large devices (laptops/desktops, 992px and up) */
-/* Hier moet de site 2 collumns breed zijn. */
-@media only screen and (min-width: 992px) {
-
-} 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* Hier moet de site 2 collumns breed zijn. */
-@media only screen and (min-width: 1200px) {
-
 }
 
+/*Mobile size, alle li elementen krijgen 100% van de ruimte, behalve de user group, die krijgen 50%*/
+@media all and (max-width: 480px) { 
+  .navigation li { f
+    flex-basis: 100%; 
+  } 
+  .navigation .user { 
+    flex-basis: 50%; 
+  } 
+  section p {
+    width: 100%;
+  }
+  }
+
+
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+section img {
+  width: 90%;
+  height: auto;
+  flex-grow: 1;
+}
+
+section div {
+  flex-basis: 16em;
+  flex-grow: 1;
+  margin: auto;
+}
+
+section h2 {
+   color: cadetblue;
+   font-family: 'Roboto';
+   text-transform: uppercase;
+   font-weight: bold;
+   text-align: center;
+}
+
+section p {
+  text-align: center;
+  line-height: 1.73;
+  margin: 20px;
+  font-family: 'roboto';
+  font-size: 12px;
+  width: 50%;
+}
+
+section a {
+    background-color: cadetblue;
+    color: white;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Poppins';
+    letter-spacing: 3px;
+    font-size: 12px;
+    line-height: 45px;
+    min-width: 180px;
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: calc(30px - 3px);
+}
+section a:hover{
+  background-color: #555;
+}
+
+header {
+  height: 460px;
+  background-image: url(../images/wave.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.section2 {
+  background-image: url(../images/mcgregor.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}

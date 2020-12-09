@@ -53,7 +53,7 @@ Media Queries gebruiken was wat roestig dus ik had daar weer uitleg over nodig. 
 | ---            | ---                | ---          | ---              |
 | Responsiveness CSS  | CSS controleren             | HTML checken    | en dan ik dat    |
 | Flexbox | semantiek HTML | positionering vragen | ... |
-| ...            | ...                | ...          | ...              |
+| probleempje met positie CSS            | ...                | CSS controleren          | Kijken naar responsivenes              |
 
 ### Verslag van meeting
 
