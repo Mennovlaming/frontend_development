@@ -67,9 +67,7 @@ nav li a:hover {
     flex: 1 1 33.33%;
   }
 
-  section p {
-    width: 75%;
-  }
+ 
 }
 
 /*Mobile size, alle li elementen krijgen 100% van de ruimte, behalve de user group, die krijgen 50%*/
@@ -80,32 +78,38 @@ nav li a:hover {
   .navigation .user { 
     flex-basis: 50%; 
   } 
-  section p {
+  .section1 p {
     width: 100%;
   }
+  
   }
 
 
 
-section {
+.section1 {
   display: flex;
   flex-wrap: wrap;
   min-height: 100vh;
 }
 
-section img {
-  width: 90%;
+.section1 img {
+  width: 80%;
   height: auto;
   flex-grow: 1;
 }
 
-section div {
+
+
+/*centreren ipv a*/
+.section1 div {
   flex-basis: 16em;
   flex-grow: 1;
   margin: auto;
+  text-align:center;
+  
 }
 
-section h2 {
+.section1 h2 {
    color: cadetblue;
    font-family: 'Roboto';
    text-transform: uppercase;
@@ -113,17 +117,94 @@ section h2 {
    text-align: center;
 }
 
-section p {
+.section1 p {
   text-align: center;
   line-height: 1.73;
-  margin: 20px;
+  margin: 20px 0;
   font-family: 'roboto';
-  font-size: 12px;
-  width: 50%;
+  font-size: 14px;
+  padding: 0 15%;
+  letter-spacing: 2px;
 }
 
-section a {
-    background-color: cadetblue;
+.section1 a {
+  
+  background: transparent;
+  border-color: #B48D46;
+  border-style: solid;
+  border-width: 1px;
+  color: black;
+  margin: 0 auto;
+  margin-top: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Poppins';
+  letter-spacing: 3px;
+  font-size: 12px;
+  line-height: 45px;
+  min-width: 180px;
+  max-width: 100%;
+  padding-left: 30px;
+  padding-right: calc(30px - 3px);
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*align-self: center;*/
+    /*justify-self: center;*/
+}
+.section1 a:hover{
+  border-color: green;
+  border-style: solid;
+  border-left: 1px solid black;
+  outline-offset: -10px;
+}
+
+header {
+  height: 460px;
+  background-image: url(../images/wave.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+}
+
+.section2 {
+  background-image: url(../images/mcgregor.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  
+  
+}
+
+.section2 .div2 {
+  flex-basis: 65%;
+  text-align:center;
+  margin-left: auto;
+  align-self: center;
+}
+
+.section2 p{
+  text-align: center;
+  line-height: 1.73;
+  margin: 20px 0;
+  font-family: 'roboto';
+  font-size: 14px;
+  padding: 0 15%;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.section2 a{
+  background: transparent;
+    border-color: #B48D46;
+    border-style: solid;
+    border-width: 1px;
     color: white;
     margin: 0 auto;
     margin-top: 15px;
@@ -140,19 +221,69 @@ section a {
     padding-left: 30px;
     padding-right: calc(30px - 3px);
 }
-section a:hover{
-  background-color: #555;
+
+.section2 h2 {
+  color: white;
+  text-align: center;
 }
 
-header {
-  height: 460px;
-  background-image: url(../images/wave.jpg);
+.section3 {
+  background-image: url(../images/recipes.jpg);
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  border: 30px solid white;
+  margin-top: 40px;
 }
 
-.section2 {
-  background-image: url(../images/mcgregor.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
+
+.section3 .div3 {
+  flex-basis: 65%;
+  text-align:center;
+  margin-right: auto;
+  align-self: center;
+}
+
+
+.section3 h2 {
+  color: white;
+  text-align: center;
+}
+
+.section3 p{
+  text-align: center;
+  line-height: 1.73;
+  margin: 20px 0;
+  font-family: 'roboto';
+  font-size: 14px;
+  padding: 0 15%;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.section3 a{
+    background: transparent;
+    border-color: #B48D46;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Poppins';
+    letter-spacing: 3px;
+    font-size: 12px;
+    line-height: 45px;
+    min-width: 180px;
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: calc(30px - 3px);
 }
